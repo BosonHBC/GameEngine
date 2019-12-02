@@ -1,0 +1,37 @@
+return
+{
+	ActionMappings = 
+	{
+		{
+			ActionName = "Jump",
+			Key = "Space"
+		},
+		{
+			ActionName = "Interact",
+			Key = "E"
+		}
+	},
+	AxisMappings = 
+	{
+		{
+			AxisName = "MoveForward",
+			Negative_Key = "S",
+			Positive_Key = "W"
+		},
+		{
+			AxisName = "MoveRight",
+			Negative_Key = "A",			
+			Positive_Key = "D"
+		},
+		{
+			AxisName = "ShootUp",
+			Negative_Key = "Down",
+			Positive_Key = "Up"
+		},
+		{
+			AxisName = "ShootRight",
+			Negative_Key = "Left",
+			Positive_Key = "Right"
+		},
+	}
+}

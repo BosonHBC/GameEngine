@@ -1,0 +1,213 @@
+﻿  cConstantBuffer.cpp
+  cRenderState.cpp
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\cRenderState.cpp(56,14): error C2955:  'eae6320::cScopeGuard': use of class template requires template argument list
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\ScopeGuard\cScopeGuard.h(27): message :  see declaration of 'eae6320::cScopeGuard'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\cRenderState.cpp(72,6): error C2514:  'eae6320::cScopeGuard': class template cannot be constructed
+  cShader.cpp
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\ScopeGuard\cScopeGuard.h(27): message :  see declaration of 'eae6320::cScopeGuard'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\cShader.cpp(29,14): error C2955:  'eae6320::cScopeGuard': use of class template requires template argument list
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\ScopeGuard\cScopeGuard.h(27): message :  see declaration of 'eae6320::cScopeGuard'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\cShader.cpp(45,6): error C2514:  'eae6320::cScopeGuard': class template cannot be constructed
+  cVertexFormat.cpp
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\ScopeGuard\cScopeGuard.h(27): message :  see declaration of 'eae6320::cScopeGuard'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\cVertexFormat.cpp(28,14): error C2955:  'eae6320::cScopeGuard': use of class template requires template argument list
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\ScopeGuard\cScopeGuard.h(27): message :  see declaration of 'eae6320::cScopeGuard'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\cVertexFormat.cpp(44,6): error C2514:  'eae6320::cScopeGuard': class template cannot be constructed
+  cConstantBuffer.d3d.cpp
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\ScopeGuard\cScopeGuard.h(27): message :  see declaration of 'eae6320::cScopeGuard'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cConstantBuffer.d3d.cpp(23,85): error C2039:  'direct3dImmediateContext': is not a member of 'eae6320::Graphics::sContext'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\sContext.h(47): message :  see declaration of 'eae6320::Graphics::sContext'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cConstantBuffer.d3d.cpp(23,39): error C2789:  'direct3dImmediateContext': an object of const-qualified type must be initialized
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cConstantBuffer.d3d.cpp(23): message :  see declaration of 'direct3dImmediateContext'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cConstantBuffer.d3d.cpp(24,2): error C3536:  'direct3dImmediateContext': cannot be used before it is initialized
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cConstantBuffer.d3d.cpp(26,2): error C2065:  'm_buffer': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cConstantBuffer.d3d.cpp(31,102): error C2065:  'm_buffer': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cConstantBuffer.d3d.cpp(35,102): error C2065:  'm_buffer': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cConstantBuffer.d3d.cpp(41,85): error C2039:  'direct3dImmediateContext': is not a member of 'eae6320::Graphics::sContext'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\sContext.h(47): message :  see declaration of 'eae6320::Graphics::sContext'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cConstantBuffer.d3d.cpp(41,39): error C2789:  'direct3dImmediateContext': an object of const-qualified type must be initialized
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cConstantBuffer.d3d.cpp(41): message :  see declaration of 'direct3dImmediateContext'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cConstantBuffer.d3d.cpp(42,2): error C3536:  'direct3dImmediateContext': cannot be used before it is initialized
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cConstantBuffer.d3d.cpp(44,2): error C2065:  'm_buffer': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cConstantBuffer.d3d.cpp(54,38): error C2065:  'm_buffer': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cConstantBuffer.d3d.cpp(56,6): error C2514:  'eae6320::cScopeGuard': class template cannot be constructed
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\ScopeGuard\cScopeGuard.h(27): message :  see declaration of 'eae6320::cScopeGuard'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cConstantBuffer.d3d.cpp(67,58): error C2065:  'm_buffer': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cConstantBuffer.d3d.cpp(67,25): error C2789:  'd3dResult': an object of const-qualified type must be initialized
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cConstantBuffer.d3d.cpp(67): message :  see declaration of 'd3dResult'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cConstantBuffer.d3d.cpp(68,7): error C3536:  'd3dResult': cannot be used before it is initialized
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cConstantBuffer.d3d.cpp(92,7): error C2065:  'm_buffer': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cConstantBuffer.d3d.cpp(94,3): error C2065:  'm_buffer': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cConstantBuffer.d3d.cpp(95,3): error C2065:  'm_buffer': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cConstantBuffer.d3d.cpp(109,65): error C2039:  'direct3dDevice': is not a member of 'eae6320::Graphics::sContext'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\sContext.h(47): message :  see declaration of 'eae6320::Graphics::sContext'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cConstantBuffer.d3d.cpp(109,29): error C2789:  'direct3dDevice': an object of const-qualified type must be initialized
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cConstantBuffer.d3d.cpp(109): message :  see declaration of 'direct3dDevice'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cConstantBuffer.d3d.cpp(110,2): error C3536:  'direct3dDevice': cannot be used before it is initialized
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cConstantBuffer.d3d.cpp(132,4): error C2065:  'm_buffer': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cConstantBuffer.d3d.cpp(130,23): error C2789:  'd3dResult': an object of const-qualified type must be initialized
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cConstantBuffer.d3d.cpp(130): message :  see declaration of 'd3dResult'
+  cRenderState.d3d.cpp
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cConstantBuffer.d3d.cpp(133,5): error C3536:  'd3dResult': cannot be used before it is initialized
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cRenderState.d3d.cpp(20,85): error C2039:  'direct3dImmediateContext': is not a member of 'eae6320::Graphics::sContext'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\sContext.h(47): message :  see declaration of 'eae6320::Graphics::sContext'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cRenderState.d3d.cpp(20,39): error C2789:  'direct3dImmediateContext': an object of const-qualified type must be initialized
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cRenderState.d3d.cpp(20): message :  see declaration of 'direct3dImmediateContext'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cRenderState.d3d.cpp(21,2): error C3536:  'direct3dImmediateContext': cannot be used before it is initialized
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cRenderState.d3d.cpp(25,3): error C2065:  'm_blendState': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cRenderState.d3d.cpp(28,46): error C2065:  'm_blendState': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cRenderState.d3d.cpp(32,3): error C2065:  'm_depthStencilState': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cRenderState.d3d.cpp(34,53): error C2065:  'm_depthStencilState': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cRenderState.d3d.cpp(38,3): error C2065:  'm_rasterizerState': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cRenderState.d3d.cpp(39,41): error C2065:  'm_rasterizerState': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cRenderState.d3d.cpp(54,65): error C2039:  'direct3dDevice': is not a member of 'eae6320::Graphics::sContext'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\sContext.h(47): message :  see declaration of 'eae6320::Graphics::sContext'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cRenderState.d3d.cpp(54,29): error C2789:  'direct3dDevice': an object of const-qualified type must be initialized
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cRenderState.d3d.cpp(54): message :  see declaration of 'direct3dDevice'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cRenderState.d3d.cpp(93,40): error C3536:  'direct3dDevice': cannot be used before it is initialized
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cRenderState.d3d.cpp(93,85): error C2065:  'm_blendState': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cRenderState.d3d.cpp(93,24): error C2789:  'd3dResult': an object of const-qualified type must be initialized
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cRenderState.d3d.cpp(93): message :  see declaration of 'd3dResult'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cRenderState.d3d.cpp(94,6): error C3536:  'd3dResult': cannot be used before it is initialized
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cRenderState.d3d.cpp(138,92): error C2065:  'm_depthStencilState': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cRenderState.d3d.cpp(138,24): error C2789:  'd3dResult': an object of const-qualified type must be initialized
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cRenderState.d3d.cpp(138): message :  see declaration of 'd3dResult'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cRenderState.d3d.cpp(139,6): error C3536:  'd3dResult': cannot be used before it is initialized
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cRenderState.d3d.cpp(177,95): error C2065:  'm_rasterizerState': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cRenderState.d3d.cpp(177,24): error C2789:  'd3dResult': an object of const-qualified type must be initialized
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cRenderState.d3d.cpp(177): message :  see declaration of 'd3dResult'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cRenderState.d3d.cpp(178,6): error C3536:  'd3dResult': cannot be used before it is initialized
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cRenderState.d3d.cpp(195,7): error C2065:  'm_blendState': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cRenderState.d3d.cpp(197,3): error C2065:  'm_blendState': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cRenderState.d3d.cpp(198,3): error C2065:  'm_blendState': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cRenderState.d3d.cpp(200,7): error C2065:  'm_depthStencilState': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cRenderState.d3d.cpp(202,3): error C2065:  'm_depthStencilState': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cRenderState.d3d.cpp(203,3): error C2065:  'm_depthStencilState': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cRenderState.d3d.cpp(205,7): error C2065:  'm_rasterizerState': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cRenderState.d3d.cpp(207,3): error C2065:  'm_rasterizerState': undeclared identifier
+  cShader.d3d.cpp
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cRenderState.d3d.cpp(208,3): error C2065:  'm_rasterizerState': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cShader.d3d.cpp(21,65): error C2039:  'direct3dDevice': is not a member of 'eae6320::Graphics::sContext'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\sContext.h(47): message :  see declaration of 'eae6320::Graphics::sContext'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cShader.d3d.cpp(21,29): error C2789:  'direct3dDevice': an object of const-qualified type must be initialized
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cShader.d3d.cpp(21): message :  see declaration of 'direct3dDevice'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cShader.d3d.cpp(22,2): error C3536:  'direct3dDevice': cannot be used before it is initialized
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cShader.d3d.cpp(31,108): error C2065:  'm_shaderObject': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cShader.d3d.cpp(34,107): error C2065:  'm_shaderObject': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cShader.d3d.cpp(59,8): error C2065:  'm_shaderObject': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cShader.d3d.cpp(61,4): error C2065:  'm_shaderObject': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cShader.d3d.cpp(62,4): error C2065:  'm_shaderObject': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cShader.d3d.cpp(66,8): error C2065:  'm_shaderObject': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cShader.d3d.cpp(68,4): error C2065:  'm_shaderObject': undeclared identifier
+  cVertexFormat.d3d.cpp
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cShader.d3d.cpp(69,4): error C2065:  'm_shaderObject': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cVertexFormat.d3d.cpp(22,85): error C2039:  'direct3dImmediateContext': is not a member of 'eae6320::Graphics::sContext'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\sContext.h(47): message :  see declaration of 'eae6320::Graphics::sContext'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cVertexFormat.d3d.cpp(22,39): error C2789:  'direct3dImmediateContext': an object of const-qualified type must be initialized
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cVertexFormat.d3d.cpp(22): message :  see declaration of 'direct3dImmediateContext'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cVertexFormat.d3d.cpp(23,2): error C3536:  'direct3dImmediateContext': cannot be used before it is initialized
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cVertexFormat.d3d.cpp(26,2): error C2065:  'm_vertexInputLayout': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cVertexFormat.d3d.cpp(27,46): error C2065:  'm_vertexInputLayout': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cVertexFormat.d3d.cpp(40,65): error C2039:  'direct3dDevice': is not a member of 'eae6320::Graphics::sContext'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\sContext.h(47): message :  see declaration of 'eae6320::Graphics::sContext'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cVertexFormat.d3d.cpp(40,29): error C2789:  'direct3dDevice': an object of const-qualified type must be initialized
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cVertexFormat.d3d.cpp(40): message :  see declaration of 'direct3dDevice'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cVertexFormat.d3d.cpp(41,2): error C3536:  'direct3dDevice': cannot be used before it is initialized
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cVertexFormat.d3d.cpp(76,69): error C2065:  'm_vertexInputLayout': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cVertexFormat.d3d.cpp(75,26): error C2789:  'd3dResult': an object of const-qualified type must be initialized
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cVertexFormat.d3d.cpp(75): message :  see declaration of 'd3dResult'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cVertexFormat.d3d.cpp(77,8): error C3536:  'd3dResult': cannot be used before it is initialized
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cVertexFormat.d3d.cpp(105,7): error C2065:  'm_vertexInputLayout': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cVertexFormat.d3d.cpp(107,3): error C2065:  'm_vertexInputLayout': undeclared identifier
+  Graphics.d3d.cpp
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\cVertexFormat.d3d.cpp(108,3): error C2065:  'm_vertexInputLayout': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\Graphics.d3d.cpp(150,85): error C2039:  'direct3dImmediateContext': is not a member of 'eae6320::Graphics::sContext'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\sContext.h(47): message :  see declaration of 'eae6320::Graphics::sContext'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\Graphics.d3d.cpp(150,39): error C2789:  'direct3dImmediateContext': an object of const-qualified type must be initialized
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\Graphics.d3d.cpp(150): message :  see declaration of 'direct3dImmediateContext'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\Graphics.d3d.cpp(151,2): error C3536:  'direct3dImmediateContext': cannot be used before it is initialized
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\Graphics.d3d.cpp(192,5): error C2039:  'm_shaderObject': is not a member of 'eae6320::Graphics::cShader'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\cShader.h(79): message :  see declaration of 'eae6320::Graphics::cShader'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\Graphics.d3d.cpp(193,66): error C2039:  'm_shaderObject': is not a member of 'eae6320::Graphics::cShader'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\cShader.h(79): message :  see declaration of 'eae6320::Graphics::cShader'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\Graphics.d3d.cpp(199,5): error C2039:  'm_shaderObject': is not a member of 'eae6320::Graphics::cShader'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\cShader.h(79): message :  see declaration of 'eae6320::Graphics::cShader'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\Graphics.d3d.cpp(200,66): error C2039:  'm_shaderObject': is not a member of 'eae6320::Graphics::cShader'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\cShader.h(79): message :  see declaration of 'eae6320::Graphics::cShader'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\Graphics.d3d.cpp(255,56): error C2039:  'swapChain': is not a member of 'eae6320::Graphics::sContext'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\sContext.h(47): message :  see declaration of 'eae6320::Graphics::sContext'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\Graphics.d3d.cpp(255,25): error C2789:  'swapChain': an object of const-qualified type must be initialized
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\Graphics.d3d.cpp(255): message :  see declaration of 'swapChain'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\Graphics.d3d.cpp(256,3): error C3536:  'swapChain': cannot be used before it is initialized
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\Graphics.d3d.cpp(259,21): error C2789:  'result': an object of const-qualified type must be initialized
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\Graphics.d3d.cpp(259): message :  see declaration of 'result'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\Graphics.d3d.cpp(260,3): error C3536:  'result': cannot be used before it is initialized
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\Graphics.d3d.cpp(334,6): error C2039:  'resolutionWidth': is not a member of 'eae6320::Graphics::sInitializationParameters'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Graphics.h(58): message :  see declaration of 'eae6320::Graphics::sInitializationParameters'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\Graphics.d3d.cpp(334,6): error C2039:  'resolutionHeight': is not a member of 'eae6320::Graphics::sInitializationParameters'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Graphics.h(58): message :  see declaration of 'eae6320::Graphics::sInitializationParameters'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\Graphics.d3d.cpp(334,6): error C2660:  '`anonymous-namespace'::InitializeViews': function does not take 1 arguments
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\Graphics.d3d.cpp(89,19): message :  see declaration of '`anonymous-namespace'::InitializeViews'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\Graphics.d3d.cpp(498,85): error C2039:  'direct3dDevice': is not a member of 'eae6320::Graphics::sContext'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\sContext.h(47): message :  see declaration of 'eae6320::Graphics::sContext'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\Graphics.d3d.cpp(498,30): error C2789:  'direct3dDevice': an object of const-qualified type must be initialized
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\Graphics.d3d.cpp(498): message :  see declaration of 'direct3dDevice'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\Graphics.d3d.cpp(499,3): error C3536:  'direct3dDevice': cannot be used before it is initialized
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\Graphics.d3d.cpp(546,25): error C2789:  'd3dResult': an object of const-qualified type must be initialized
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\Graphics.d3d.cpp(546): message :  see declaration of 'd3dResult'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\Graphics.d3d.cpp(547,7): error C3536:  'd3dResult': cannot be used before it is initialized
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\Graphics.d3d.cpp(607,7): error C2514:  'eae6320::cScopeGuard': class template cannot be constructed
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\ScopeGuard\cScopeGuard.h(27): message :  see declaration of 'eae6320::cScopeGuard'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\Graphics.d3d.cpp(610,56): error C2039:  'direct3dDevice': is not a member of 'eae6320::Graphics::sContext'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\sContext.h(47): message :  see declaration of 'eae6320::Graphics::sContext'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\Graphics.d3d.cpp(610,30): error C2789:  'direct3dDevice': an object of const-qualified type must be initialized
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\Graphics.d3d.cpp(610): message :  see declaration of 'direct3dDevice'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\Graphics.d3d.cpp(611,3): error C3536:  'direct3dDevice': cannot be used before it is initialized
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\Graphics.d3d.cpp(612,76): error C2039:  'direct3dImmediateContext': is not a member of 'eae6320::Graphics::sContext'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\sContext.h(47): message :  see declaration of 'eae6320::Graphics::sContext'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\Graphics.d3d.cpp(612,40): error C2789:  'direct3dImmediateContext': an object of const-qualified type must be initialized
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\Graphics.d3d.cpp(612): message :  see declaration of 'direct3dImmediateContext'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\Graphics.d3d.cpp(613,3): error C3536:  'direct3dImmediateContext': cannot be used before it is initialized
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\Graphics.d3d.cpp(623,47): error C2039:  'swapChain': is not a member of 'eae6320::Graphics::sContext'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\sContext.h(47): message :  see declaration of 'eae6320::Graphics::sContext'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\Graphics.d3d.cpp(623,26): error C2789:  'd3dResult': an object of const-qualified type must be initialized
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\Graphics.d3d.cpp(623): message :  see declaration of 'd3dResult'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\Graphics.d3d.cpp(624,8): error C3536:  'd3dResult': cannot be used before it is initialized
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\Graphics.d3d.cpp(635,26): error C2789:  'd3dResult': an object of const-qualified type must be initialized
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\Graphics.d3d.cpp(635): message :  see declaration of 'd3dResult'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\Graphics.d3d.cpp(636,8): error C3536:  'd3dResult': cannot be used before it is initialized
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\Graphics.d3d.cpp(670,26): error C2789:  'd3dResult': an object of const-qualified type must be initialized
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\Graphics.d3d.cpp(670): message :  see declaration of 'd3dResult'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\Graphics.d3d.cpp(671,8): error C3536:  'd3dResult': cannot be used before it is initialized
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\Graphics.d3d.cpp(682,26): error C2789:  'd3dResult': an object of const-qualified type must be initialized
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\Graphics.d3d.cpp(682): message :  see declaration of 'd3dResult'
+  sContext.d3d.cpp
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\Graphics.d3d.cpp(683,8): error C3536:  'd3dResult': cannot be used before it is initialized
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\sContext.d3d.cpp(32,5): error C2039:  'resolutionWidth': is not a member of 'eae6320::Graphics::sInitializationParameters'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Graphics.h(58): message :  see declaration of 'eae6320::Graphics::sInitializationParameters'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\sContext.d3d.cpp(32,5): error C2039:  'resolutionHeight': is not a member of 'eae6320::Graphics::sInitializationParameters'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Graphics.h(58): message :  see declaration of 'eae6320::Graphics::sInitializationParameters'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\sContext.d3d.cpp(32,5): error C2660:  '`anonymous-namespace'::CreateDevice': function does not take 1 arguments
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\sContext.d3d.cpp(16,19): message :  see declaration of '`anonymous-namespace'::CreateDevice'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\sContext.d3d.cpp(45,7): error C2065:  'direct3dImmediateContext': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\sContext.d3d.cpp(47,3): error C2065:  'direct3dImmediateContext': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\sContext.d3d.cpp(48,3): error C2065:  'direct3dImmediateContext': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\sContext.d3d.cpp(50,7): error C2065:  'direct3dDevice': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\sContext.d3d.cpp(52,3): error C2065:  'direct3dDevice': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\sContext.d3d.cpp(53,3): error C2065:  'direct3dDevice': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\sContext.d3d.cpp(55,7): error C2065:  'swapChain': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\sContext.d3d.cpp(57,3): error C2065:  'swapChain': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\sContext.d3d.cpp(58,3): error C2065:  'swapChain': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\sContext.d3d.cpp(119,24): error C2039:  'swapChain': is not a member of 'eae6320::Graphics::sContext'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\sContext.h(47): message :  see declaration of 'eae6320::Graphics::sContext'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\sContext.d3d.cpp(119,51): error C2039:  'direct3dDevice': is not a member of 'eae6320::Graphics::sContext'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\sContext.h(47): message :  see declaration of 'eae6320::Graphics::sContext'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\sContext.d3d.cpp(119,120): error C2039:  'direct3dImmediateContext': is not a member of 'eae6320::Graphics::sContext'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\sContext.h(47): message :  see declaration of 'eae6320::Graphics::sContext'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\sContext.d3d.cpp(117,26): error C2660:  'D3D11CreateDeviceAndSwapChain': function does not take 9 arguments
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\d3d11.h(14537,16): message :  see declaration of 'D3D11CreateDeviceAndSwapChain'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\sContext.d3d.cpp(117,24): error C2789:  'd3dResult': an object of const-qualified type must be initialized
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\sContext.d3d.cpp(117): message :  see declaration of 'd3dResult'
+  sContext.cpp
+  Generating Code...
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\Direct3D\sContext.d3d.cpp(120,6): error C3536:  'd3dResult': cannot be used before it is initialized

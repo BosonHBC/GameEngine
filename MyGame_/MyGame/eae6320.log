@@ -1,0 +1,9 @@
+Opened log file "eae6320.log"
+Initialized time
+Registered main window class "John-Paul's EAE6320 Example Main Window Class"
+The user settings file "settings.ini" doesn't exist. Using default settings instead.
+Created main window "Boson HUANG's Triple A's Multiplayer Zombie Survival Streatgy First Person Shooter -- OpenGL"
+Set main window resolution to 512 x 512
+Failed to load shader from file data/Shaders/Vertex/standard.shader: Windows failed to open the file "data/Shaders/Vertex/standard.shader" for reading: The system cannot find the path specified.
+Failed to load shader from file data/Shaders/Fragment/animatedcolor.shader: Windows failed to open the file "data/Shaders/Fragment/animatedcolor.shader" for reading: The system cannot find the path specified.
+Application initialization failed!

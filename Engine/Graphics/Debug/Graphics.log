@@ -1,0 +1,233 @@
+﻿  cConstantBuffer.cpp
+  cRenderState.cpp
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\cRenderState.cpp(56,14): error C2955:  'eae6320::cScopeGuard': use of class template requires template argument list
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\ScopeGuard\cScopeGuard.h(27): message :  see declaration of 'eae6320::cScopeGuard'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\cRenderState.cpp(72,6): error C2514:  'eae6320::cScopeGuard': class template cannot be constructed
+  cShader.cpp
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\ScopeGuard\cScopeGuard.h(27): message :  see declaration of 'eae6320::cScopeGuard'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\cShader.cpp(29,14): error C2955:  'eae6320::cScopeGuard': use of class template requires template argument list
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\ScopeGuard\cScopeGuard.h(27): message :  see declaration of 'eae6320::cScopeGuard'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\cShader.cpp(45,6): error C2514:  'eae6320::cScopeGuard': class template cannot be constructed
+  cVertexFormat.cpp
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\ScopeGuard\cScopeGuard.h(27): message :  see declaration of 'eae6320::cScopeGuard'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\cVertexFormat.cpp(28,14): error C2955:  'eae6320::cScopeGuard': use of class template requires template argument list
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\ScopeGuard\cScopeGuard.h(27): message :  see declaration of 'eae6320::cScopeGuard'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\cVertexFormat.cpp(44,6): error C2514:  'eae6320::cScopeGuard': class template cannot be constructed
+  cConstantBuffer.gl.cpp
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\ScopeGuard\cScopeGuard.h(27): message :  see declaration of 'eae6320::cScopeGuard'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(18,2): error C2065:  'm_bufferId': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(22,20): error C2065:  'GL_UNIFORM_BUFFER': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(22,57): error C2061:  syntax error: identifier 'GLuint'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(23,2): error C3861:  'glGetError': identifier not found
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(23,2): error C2065:  'GL_NO_ERROR': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(28,2): error C2065:  'm_bufferId': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(32,17): error C2065:  'GL_UNIFORM_BUFFER': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(32,36): error C2065:  'm_bufferId': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(32,3): error C3861:  'glBindBuffer': identifier not found
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(33,3): error C3861:  'glGetError': identifier not found
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(33,3): error C2065:  'GL_NO_ERROR': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(37,3): error C2065:  'GLintptr': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(37,12): error C2146:  syntax error: missing ';' before identifier 'updateAtTheBeginning'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(37,12): error C2065:  'updateAtTheBeginning': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(38,20): error C2065:  'GL_UNIFORM_BUFFER': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(38,39): error C2065:  'updateAtTheBeginning': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(38,83): error C2061:  syntax error: identifier 'GLsizeiptr'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(39,3): error C3861:  'glGetError': identifier not found
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(39,3): error C2065:  'GL_NO_ERROR': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(50,7): error C2065:  'm_bufferId': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(52,33): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(52,33): error C2737:  'GLsizei': 'constexpr' object must be initialized
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(52,13): error C2737:  'GLsizei': 'constexpr' object must be initialized
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(52,21): error C2146:  syntax error: missing ';' before identifier 'bufferCount'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(52,21): error C2065:  'bufferCount': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(53,20): error C2065:  'bufferCount': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(53,34): error C2065:  'm_bufferId': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(53,3): error C3861:  'glDeleteBuffers': identifier not found
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(54,26): error C3861:  'glGetError': identifier not found
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(55,21): error C2065:  'GL_NO_ERROR': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(58,4): error C3861:  'gluErrorString': identifier not found
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(60,36): error C3861:  'gluErrorString': identifier not found
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(62,3): error C2065:  'm_bufferId': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(80,33): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(80,33): error C2737:  'GLsizei': 'constexpr' object must be initialized
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(80,13): error C2737:  'GLsizei': 'constexpr' object must be initialized
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(80,21): error C2146:  syntax error: missing ';' before identifier 'bufferCount'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(80,21): error C2065:  'bufferCount': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(81,17): error C2065:  'bufferCount': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(81,31): error C2065:  'm_bufferId': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(81,3): error C3861:  'glGenBuffers': identifier not found
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(82,26): error C3861:  'glGetError': identifier not found
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(83,21): error C2065:  'GL_NO_ERROR': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(85,18): error C2065:  'GL_UNIFORM_BUFFER': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(85,37): error C2065:  'm_bufferId': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(85,4): error C3861:  'glBindBuffer': identifier not found
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(86,27): error C3861:  'glGetError': identifier not found
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(87,22): error C2065:  'GL_NO_ERROR': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(90,5): error C3861:  'gluErrorString': identifier not found
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(92,6): error C2065:  'm_bufferId': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(92,49): error C3861:  'gluErrorString': identifier not found
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(99,4): error C3861:  'gluErrorString': identifier not found
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(101,36): error C3861:  'gluErrorString': identifier not found
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(107,26): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(107,26): error C2737:  'GLenum': 'constexpr' object must be initialized
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(107,13): error C2737:  'GLenum': 'constexpr' object must be initialized
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(107,20): error C2146:  syntax error: missing ';' before identifier 'usage'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(107,20): error C2065:  'usage': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(107,28): error C2065:  'GL_DYNAMIC_DRAW': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(108,17): error C2065:  'GL_UNIFORM_BUFFER': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(108,58): error C2061:  syntax error: identifier 'GLsizeiptr'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(110,26): error C3861:  'glGetError': identifier not found
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(111,21): error C2065:  'GL_NO_ERROR': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(114,4): error C3861:  'gluErrorString': identifier not found
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(116,5): error C2065:  'm_bufferId': undeclared identifier
+  cRenderState.gl.cpp
+  cShader.gl.cpp
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cConstantBuffer.gl.cpp(116,48): error C3861:  'gluErrorString': identifier not found
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(21,9): error C2143:  syntax error: missing ';' before '*'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(21,9): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(21,27): error C2238:  unexpected token(s) preceding ';'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(22,37): error C2065:  'memory': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(22,35): error C2061:  syntax error: identifier 'GLchar'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(23,22): error C2065:  'memory': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(23,37): error C2065:  'memory': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(37,2): error C2065:  'GLuint': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(37,9): error C2146:  syntax error: missing ';' before identifier 'shaderId'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(37,9): error C2065:  'shaderId': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(59,1): error C3481:  'shaderId': lambda capture variable not found
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(44,6): error C2065:  'm_shaderId': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(48,6): error C3861:  'glDeleteShader': identifier not found
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(49,29): error C3861:  'glGetError': identifier not found
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(50,24): error C2065:  'GL_NO_ERROR': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(52,1): error C3861:  'gluErrorString': identifier not found
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(54,49): error C3861:  'gluErrorString': identifier not found
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(59,6): error C2514:  'eae6320::cScopeGuard': class template cannot be constructed
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\ScopeGuard\cScopeGuard.h(27): message :  see declaration of 'eae6320::cScopeGuard'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(61,81): error C2065:  'GL_VERTEX_SHADER': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(61,100): error C2065:  'GL_FRAGMENT_SHADER': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(61,24): error C2789:  'shaderType': an object of const-qualified type must be initialized
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(61): message :  see declaration of 'shaderType'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(62,58): error C3536:  'shaderType': cannot be used before it is initialized
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(66,3): error C2065:  'GLboolean': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(66,13): error C2146:  syntax error: missing ';' before identifier 'isShaderCompilingSupported'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(66,13): error C2065:  'isShaderCompilingSupported': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(67,18): error C2065:  'GL_SHADER_COMPILER': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(67,39): error C2065:  'isShaderCompilingSupported': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(67,3): error C3861:  'glGetBooleanv': identifier not found
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(68,9): error C2065:  'isShaderCompilingSupported': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(78,2): error C2065:  'shaderId': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(78,13): error C3861:  'glCreateShader': identifier not found
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(80,26): error C3861:  'glGetError': identifier not found
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(81,21): error C2065:  'GL_NO_ERROR': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(84,4): error C3861:  'gluErrorString': identifier not found
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(86,60): error C3861:  'gluErrorString': identifier not found
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(89,13): error C2065:  'shaderId': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(99,17): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(99,17): error C2146:  syntax error: missing ';' before identifier 'shaderSourceCount'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(99,17): error C2065:  'shaderSourceCount': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(100,40): error C2061:  syntax error: identifier 'GLint'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(101,19): error C2065:  'shaderId': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(101,29): error C2065:  'shaderSourceCount': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(101,71): error C2061:  syntax error: identifier 'GLchar'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(102,26): error C3861:  'glGetError': identifier not found
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(103,21): error C2065:  'GL_NO_ERROR': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(106,4): error C3861:  'gluErrorString': identifier not found
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(108,52): error C3861:  'gluErrorString': identifier not found
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(114,20): error C2065:  'shaderId': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(114,3): error C3861:  'glCompileShader': identifier not found
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(115,26): error C3861:  'glGetError': identifier not found
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(116,21): error C2065:  'GL_NO_ERROR': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(123,5): error C2065:  'GLint': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(123,11): error C2146:  syntax error: missing ';' before identifier 'infoSize'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(123,11): error C2065:  'infoSize': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(124,20): error C2065:  'shaderId': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(124,30): error C2065:  'GL_INFO_LOG_LENGTH': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(124,51): error C2065:  'infoSize': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(124,5): error C3861:  'glGetShaderiv': identifier not found
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(125,28): error C3861:  'glGetError': identifier not found
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(126,23): error C2065:  'GL_NO_ERROR': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(128,42): error C2065:  'infoSize': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(129,6): error C2065:  'GLsizei': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(129,15): error C2065:  'dontReturnLength': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(130,26): error C2065:  'shaderId': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(130,55): error C2061:  syntax error: identifier 'GLsizei'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(131,29): error C3861:  'glGetError': identifier not found
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(132,24): error C2065:  'GL_NO_ERROR': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(134,36): error C2039:  'memory': is not a member of '`anonymous-namespace'::sLogInfo'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(19): message :  see declaration of '`anonymous-namespace'::sLogInfo'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(139,7): error C3861:  'gluErrorString': identifier not found
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(141,55): error C3861:  'gluErrorString': identifier not found
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(148,6): error C3861:  'gluErrorString': identifier not found
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(150,54): error C3861:  'gluErrorString': identifier not found
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(155,4): error C2065:  'GLint': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(155,10): error C2146:  syntax error: missing ';' before identifier 'didCompilationSucceed'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(155,10): error C2065:  'didCompilationSucceed': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(157,20): error C2065:  'shaderId': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(157,30): error C2065:  'GL_COMPILE_STATUS': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(157,50): error C2065:  'didCompilationSucceed': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(157,5): error C3861:  'glGetShaderiv': identifier not found
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(158,28): error C3861:  'glGetError': identifier not found
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(159,23): error C2065:  'GL_NO_ERROR': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(161,11): error C2065:  'didCompilationSucceed': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(161,36): error C2065:  'GL_FALSE': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(173,6): error C3861:  'gluErrorString': identifier not found
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(175,54): error C3861:  'gluErrorString': identifier not found
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(183,4): error C3861:  'gluErrorString': identifier not found
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(185,52): error C3861:  'gluErrorString': identifier not found
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(197,7): error C2065:  'm_shaderId': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(199,19): error C2065:  'm_shaderId': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(199,3): error C3861:  'glDeleteShader': identifier not found
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(200,26): error C3861:  'glGetError': identifier not found
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(201,21): error C2065:  'GL_NO_ERROR': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(207,4): error C3861:  'gluErrorString': identifier not found
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(209,5): error C2065:  'm_shaderId': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(209,48): error C3861:  'gluErrorString': identifier not found
+  Graphics.gl.cpp
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\cShader.gl.cpp(211,3): error C2065:  'm_shaderId': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\Graphics.gl.cpp(230,63): error C2039:  'deviceContext': is not a member of 'eae6320::Graphics::sContext'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\sContext.h(47): message :  see declaration of 'eae6320::Graphics::sContext'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\Graphics.gl.cpp(230,28): error C2789:  'deviceContext': an object of const-qualified type must be initialized
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\Graphics.gl.cpp(230): message :  see declaration of 'deviceContext'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\Graphics.gl.cpp(231,3): error C3536:  'deviceContext': cannot be used before it is initialized
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\Graphics.gl.cpp(232,52): error C2664:  'BOOL SwapBuffers(HDC)': cannot convert argument 1 from 'int' to 'HDC'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\Graphics.gl.cpp(232,38): message :  Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\Graphics.gl.cpp(232,23): error C2789:  'glResult': an object of const-qualified type must be initialized
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\Graphics.gl.cpp(232): message :  see declaration of 'glResult'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\Graphics.gl.cpp(233,3): error C3536:  'glResult': cannot be used before it is initialized
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\Graphics.gl.cpp(662,7): error C2514:  'eae6320::cScopeGuard': class template cannot be constructed
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\ScopeGuard\cScopeGuard.h(27): message :  see declaration of 'eae6320::cScopeGuard'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\Graphics.gl.cpp(686,106): error C2039:  'm_shaderId': is not a member of 'eae6320::Graphics::cShader'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\cShader.h(79): message :  see declaration of 'eae6320::Graphics::cShader'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\Graphics.gl.cpp(686,106): error C2198:  'PFNGLATTACHSHADERPROC': too few arguments for call
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\Graphics.gl.cpp(699,108): error C2039:  'm_shaderId': is not a member of 'eae6320::Graphics::cShader'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\cShader.h(79): message :  see declaration of 'eae6320::Graphics::cShader'
+  sContext.gl.cpp
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\Graphics.gl.cpp(699,108): error C2198:  'PFNGLATTACHSHADERPROC': too few arguments for call
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\sContext.gl.cpp(57,7): error C2065:  'openGlRenderingContext': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\sContext.gl.cpp(59,24): error C2065:  'deviceContext': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\sContext.gl.cpp(61,27): error C2065:  'openGlRenderingContext': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\sContext.gl.cpp(82,3): error C2065:  'openGlRenderingContext': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\sContext.gl.cpp(85,7): error C2065:  'deviceContext': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\sContext.gl.cpp(88,37): error C2065:  'deviceContext': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\sContext.gl.cpp(89,3): error C2065:  'deviceContext': undeclared identifier
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\sContext.gl.cpp(108,28): error C2039:  'deviceContext': is not a member of 'eae6320::Graphics::sContext'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\sContext.h(47): message :  see declaration of 'eae6320::Graphics::sContext'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\sContext.gl.cpp(109,7): error C2039:  'deviceContext': is not a member of 'eae6320::Graphics::sContext'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\sContext.h(47): message :  see declaration of 'eae6320::Graphics::sContext'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\sContext.gl.cpp(142,8): error C2039:  'deviceContext': is not a member of 'eae6320::Graphics::sContext'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\sContext.h(47): message :  see declaration of 'eae6320::Graphics::sContext'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\sContext.gl.cpp(176,8): error C2039:  'deviceContext': is not a member of 'eae6320::Graphics::sContext'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\sContext.h(47): message :  see declaration of 'eae6320::Graphics::sContext'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\sContext.gl.cpp(205,38): error C2039:  'openGlRenderingContext': is not a member of 'eae6320::Graphics::sContext'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\sContext.h(47): message :  see declaration of 'eae6320::Graphics::sContext'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\sContext.gl.cpp(205,91): error C2039:  'deviceContext': is not a member of 'eae6320::Graphics::sContext'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\sContext.h(47): message :  see declaration of 'eae6320::Graphics::sContext'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\sContext.gl.cpp(206,8): error C2039:  'openGlRenderingContext': is not a member of 'eae6320::Graphics::sContext'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\sContext.h(47): message :  see declaration of 'eae6320::Graphics::sContext'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\sContext.gl.cpp(233,7): error C2039:  'deviceContext': is not a member of 'eae6320::Graphics::sContext'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\sContext.h(47): message :  see declaration of 'eae6320::Graphics::sContext'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\sContext.gl.cpp(233,7): error C2039:  'openGlRenderingContext': is not a member of 'eae6320::Graphics::sContext'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\sContext.h(47): message :  see declaration of 'eae6320::Graphics::sContext'
+C:\Users\U1218984\Documents\GitHub\huang_bocheng\Engine\Graphics\OpenGL\sContext.gl.cpp(233,7): error C2660:  'wglMakeCurrent': function does not take 1 arguments
+  sContext.cpp
+  Generating Code...
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\wingdi.h(6213,24): message :  see declaration of 'wglMakeCurrent'

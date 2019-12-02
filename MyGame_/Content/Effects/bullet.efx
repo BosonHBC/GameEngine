@@ -1,0 +1,12 @@
+return
+{
+	vertexShaderPath =  "Shaders/Vertex/standard.shader",
+	fragmentShaderPath =  "Shaders/Fragment/redUnlit.shader",
+	
+	renderState = {
+		IsAlphaTransparencyEnabled = false,
+		IsDepthTestingEnabled = true,
+		IsDepthWritingEnabled = true,
+		ShouldBothTriangleSidesBeDrawn = false
+	}
+}
